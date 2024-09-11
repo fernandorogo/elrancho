@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.titlebienveido {
+    font-family: "Great Vibes", cursive;
+    font-size:10vw;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center
+}
+
+h3 {
+    text-align: center;
+}
+
+
+nav {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: saddlebrown;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+.contenido {
+
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+
+}
+
+.p1 {
+    text-align: right;
+
+}
+
+.img1 {
+    width: 500px;
+    height: 500px;
+}
+
+i {
+    text-align: center;
+    color: black;
+    font-size: x-large;
+}
+
+.culh1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: black;
+    border: black;
+}
+
+.p2 {
+    text-align: center;
+    font-size: x-large;
+}
+
+section {
+    display: flex;
+    margin: 0;
+    height: 430px;
+    align-content: center;
+    justify-items: center;
+
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+    text-align: center;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 200px;
+    opacity: 1;
+    filter: contrast(120%);
+    text-align: center;
+}
+
+.eco {
+    text-align: center;
+    color: chocolate;
+}
+
+.pp {
+    text-align: center;
+
+}
+
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: saddlebrown;
+}
